@@ -1,19 +1,23 @@
 <template>
   <div id="app">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <img src="./assets/logo.png">
     <test msg="Hello"></test>
     <users></users>
+    <simpleaudio></simpleaudio>
   </div>
 </template>
 
 <script>
 import Test from './components/Test'
 import Users from './components/Users'
+import SimpleAudio from './components/SimpleAudio.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Test, Users
+    Test, Users, SimpleAudio
   }
 }
 </script>
